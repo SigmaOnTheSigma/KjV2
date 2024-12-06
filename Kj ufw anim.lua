@@ -1,3 +1,9 @@
+local player = game.Players.LocalPlayer
+
 local anim = Instance.new("Animation")
+
 anim.AnimationId = "91891729161859"
-anim:Play()
+
+	local animtrack = player.Character:WaitForChild("Humanoid"):LoadAnimation(anim)
+	animtrack:Play()
+end)
