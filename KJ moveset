@@ -50,7 +50,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "KJ's Mad punch" -- put the name of the base move 1
+ToolName.Text = "Dragon Fist" -- put the name of the base move 1
 
 
 local player = game.Players.LocalPlayer
@@ -68,7 +68,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Ravage" -- put the name of the base move 2
+ToolName.Text = "Rampaging Barrage" -- put the name of the base move 2
 
 
 local player = game.Players.LocalPlayer
@@ -86,7 +86,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Swift sweep" -- put the name of the base move 3
+ToolName.Text = "PowerFul Blast" -- put the name of the base move 3
 
 
 local player = game.Players.LocalPlayer
@@ -104,7 +104,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Collateral ruin" -- put the name of the base move 4
+ToolName.Text = "Skull Crusher" -- put the name of the base move 4
 
 
 local Players = game:GetService("Players")
@@ -128,7 +128,7 @@ local function findGuiAndSetText()
 
             if textLabel then
 
-                textLabel.Text = "20 SERIES" -- put the name of the ult name ultimate text
+                textLabel.Text = "Martial Legend" -- put the name of the ult name ultimate text
 
             end
 
@@ -174,7 +174,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18896127525" -- the specific anim
+AnimAnim.AnimationId = "rbxassetid://128934660661875" -- the specific anim
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -230,7 +230,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13560306510" -- the specific move ur gonna replace
+AnimAnim.AnimationId = "rbxassetid://17838006839" -- the specific move ur gonna replace
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -350,7 +350,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://14719290328" -- the specific anim
+AnimAnim.AnimationId = "rbxassetid://12618271998" -- the specific anim
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -404,7 +404,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13777338337" -- the specific anim
+AnimAnim.AnimationId = "rbxassetid://136442814534463" -- the specific anim
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -622,7 +622,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16746843881" -- the specific anim
+AnimAnim.AnimationId = "rbxassetid://106778226674700" -- the specific anim
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
